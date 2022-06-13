@@ -1,3 +1,4 @@
+/* eslint-disable jest/no-standalone-expect */
 import { describe, expect, it } from 'vitest'
 
 describe('test', () => {
