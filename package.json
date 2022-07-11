@@ -47,7 +47,7 @@
   },
   "devDependencies": {
     "@antfu/ni": "^0.16.3",
-    "@babel/types": "^7.18.7",
+    "@babel/types": "^7.18.8",
     "@hannoeru/eslint-config": "^0.8.10",
     "@types/node": "^17.0.23",
     "bumpp": "^8.2.1",
