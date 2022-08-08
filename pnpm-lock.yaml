@@ -11,11 +11,11 @@ importers:
       bumpp: ^8.2.1
       eslint: ^8.20.0
       esno: ^0.16.3
-      pnpm: ^7.8.0
+      pnpm: ^7.9.0
       typescript: ^4.7.4
       unbuild: ^0.7.6
       vite: ^3.0.4
-      vitest: ^0.20.2
+      vitest: ^0.21.0
     devDependencies:
       '@antfu/ni': 0.17.2
       '@babel/types': 7.18.9
@@ -24,11 +24,11 @@ importers:
       bumpp: 8.2.1
       eslint: 8.20.0
       esno: 0.16.3
-      pnpm: 7.8.0
+      pnpm: 7.9.0
       typescript: 4.7.4
       unbuild: 0.7.6
       vite: 3.0.4
-      vitest: 0.20.2
+      vitest: 0.21.0
 
 packages:
 
@@ -3032,8 +3032,8 @@ packages:
     engines: {node: '>=4'}
     dev: true
 
-  /pnpm/7.8.0:
-    resolution: {integrity: sha512-jzb9/gto4nwuVA2itTRk0PJhuaZcA1NBRB298UzXhqKZQMjtHCS+KLzh7RWk5n3g+KnMg5FHr6Mwg1L62dBz1A==}
+  /pnpm/7.9.0:
+    resolution: {integrity: sha512-xkIVw73yJm/h5M4VvFIS5Q+gQCRDrp3r92g58PtcCK86aZCa7EQ6q6ivdfTAz0KsAVgloA6Anub28n6wju5v3w==}
     engines: {node: '>=14.6'}
     hasBin: true
     dev: true
@@ -3603,8 +3603,8 @@ packages:
       fsevents: 2.3.2
     dev: true
 
-  /vitest/0.20.2:
-    resolution: {integrity: sha512-AFXTHrwG4d2OO6SAL8WP5ZkOwLtgeF4tlrHfXFqrHc+5chNegeR53pge0lv/C4316SqJ2DbYaUBH8vh3CdF+BQ==}
+  /vitest/0.21.0:
+    resolution: {integrity: sha512-+BQB2swk4wQdw5loOoL8esIYh/1ifAliuwj2HWHNE2F8SAl/jF7/aoCJBoXGSf/Ws19k3pH4NrWeVtcSwM0j2w==}
     engines: {node: '>=v14.16.0'}
     hasBin: true
     peerDependencies:
