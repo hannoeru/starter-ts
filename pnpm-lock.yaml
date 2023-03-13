@@ -7,11 +7,11 @@ importers:
       '@antfu/ni': ^0.20.0
       '@babel/types': ^7.21.2
       '@hannoeru/eslint-config': ^0.9.4
-      '@types/node': ^18.14.6
+      '@types/node': ^18.15.0
       bumpp: ^8.2.1
       eslint: ^8.35.0
       esno: ^0.16.3
-      pnpm: ^7.29.0
+      pnpm: ^7.29.1
       typescript: ^4.9.5
       unbuild: ^1.1.2
       vite: ^3.2.5
@@ -20,14 +20,14 @@ importers:
       '@antfu/ni': 0.20.0
       '@babel/types': 7.21.2
       '@hannoeru/eslint-config': 0.9.4_ycpbpc6yetojsgtrx3mwntkhsu
-      '@types/node': 18.14.6
+      '@types/node': 18.15.0
       bumpp: 8.2.1
       eslint: 8.35.0
       esno: 0.16.3
-      pnpm: 7.29.0
+      pnpm: 7.29.1
       typescript: 4.9.5
       unbuild: 1.1.2
-      vite: 3.2.5_@types+node@18.14.6
+      vite: 3.2.5_@types+node@18.15.0
       vitest: 0.26.3
 
 packages:
@@ -803,8 +803,8 @@ packages:
       '@types/unist': 2.0.6
     dev: true
 
-  /@types/node/18.14.6:
-    resolution: {integrity: sha512-93+VvleD3mXwlLI/xASjw0FzKcwzl3OdTCzm1LaRfqgS21gfFtK3zDXM5Op9TeeMsJVOaJ2VRDpT9q4Y3d0AvA==}
+  /@types/node/18.15.0:
+    resolution: {integrity: sha512-z6nr0TTEOBGkzLGmbypWOGnpSpSIBorEhC4L+4HeQ2iezKCi4f77kyslRwvHeNitymGQ+oFyIWGP96l/DPSV9w==}
     dev: true
 
   /@types/normalize-package-data/2.4.1:
@@ -3382,8 +3382,8 @@ packages:
     engines: {node: '>=4'}
     dev: true
 
-  /pnpm/7.29.0:
-    resolution: {integrity: sha512-SyJGcUK7gmLSJYjspL6iVOR9CS7ARYA7K0JmJkjn+MMxEJBUwzc0XdPBNwh5q8dxs+iR2ZQBalmI1lI24GRVOA==}
+  /pnpm/7.29.1:
+    resolution: {integrity: sha512-dn+65B2XpMIin7sQZvBIJ2Zyx8Z7LK95qyAvgEPE8qXkWYL/LuwpfMfK9Muc7+zNnpPwiQgtGEsxgOtuabFibQ==}
     engines: {node: '>=14.6'}
     hasBin: true
     dev: true
@@ -4010,7 +4010,7 @@ packages:
       spdx-expression-parse: 3.0.1
     dev: true
 
-  /vite-node/0.26.3_@types+node@18.14.6:
+  /vite-node/0.26.3_@types+node@18.15.0:
     resolution: {integrity: sha512-Te2bq0Bfvq6XiO718I+1EinMjpNYKws6SNHKOmVbILAQimKoZKDd+IZLlkaYcBXPpK3HFe2U80k8Zw+m3w/a2w==}
     engines: {node: '>=v14.16.0'}
     hasBin: true
@@ -4020,7 +4020,7 @@ packages:
       pathe: 0.2.0
       source-map: 0.6.1
       source-map-support: 0.5.21
-      vite: 3.2.5_@types+node@18.14.6
+      vite: 3.2.5_@types+node@18.15.0
     transitivePeerDependencies:
       - '@types/node'
       - less
@@ -4031,7 +4031,7 @@ packages:
       - terser
     dev: true
 
-  /vite/3.2.5_@types+node@18.14.6:
+  /vite/3.2.5_@types+node@18.15.0:
     resolution: {integrity: sha512-4mVEpXpSOgrssFZAOmGIr85wPHKvaDAcXqxVxVRZhljkJOMZi1ibLibzjLHzJvcok8BMguLc7g1W6W/GqZbLdQ==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
@@ -4056,7 +4056,7 @@ packages:
       terser:
         optional: true
     dependencies:
-      '@types/node': 18.14.6
+      '@types/node': 18.15.0
       esbuild: 0.15.16
       postcss: 8.4.18
       resolve: 1.22.1
@@ -4089,7 +4089,7 @@ packages:
     dependencies:
       '@types/chai': 4.3.4
       '@types/chai-subset': 1.3.3
-      '@types/node': 18.14.6
+      '@types/node': 18.15.0
       acorn: 8.8.1
       acorn-walk: 8.2.0
       chai: 4.3.7
@@ -4100,8 +4100,8 @@ packages:
       tinybench: 2.3.1
       tinypool: 0.3.0
       tinyspy: 1.0.2
-      vite: 3.2.5_@types+node@18.14.6
-      vite-node: 0.26.3_@types+node@18.14.6
+      vite: 3.2.5_@types+node@18.15.0
+      vite-node: 0.26.3_@types+node@18.15.0
     transitivePeerDependencies:
       - less
       - sass
