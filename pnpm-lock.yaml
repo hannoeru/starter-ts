@@ -11,7 +11,7 @@ importers:
       bumpp: ^8.2.1
       eslint: ^8.43.0
       esno: ^0.16.3
-      pnpm: ^7.33.1
+      pnpm: ^7.33.2
       typescript: ^5.1.3
       unbuild: ^1.2.1
       vite: ^3.2.7
@@ -24,7 +24,7 @@ importers:
       bumpp: 8.2.1
       eslint: 8.43.0
       esno: 0.16.3
-      pnpm: 7.33.1
+      pnpm: 7.33.2
       typescript: 5.1.3
       unbuild: 1.2.1
       vite: 3.2.7_@types+node@18.16.18
@@ -3536,8 +3536,8 @@ packages:
     engines: {node: '>=4'}
     dev: true
 
-  /pnpm/7.33.1:
-    resolution: {integrity: sha512-+eL8qbdPEQVBhh7MHurn8Mx7c71zdYNVV47IHecz/5+ONEe7AX3xuSqbbQPgmJnU3EBEnCAZHOGhRJi7CCV0qA==}
+  /pnpm/7.33.2:
+    resolution: {integrity: sha512-rDTWdW6vMPTI7B01byiA3rZa0tCnoMFwX8oT88R9ouvnBfQ10YZuAffcKln199Sw7Oes0t9TgbA/dFoDb6D1tQ==}
     engines: {node: '>=14.6'}
     hasBin: true
     dev: true
