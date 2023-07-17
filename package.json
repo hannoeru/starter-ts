@@ -51,7 +51,7 @@
     "@hannoeru/eslint-config": "^0.9.5",
     "@types/node": "^18.16.19",
     "bumpp": "^8.2.1",
-    "eslint": "^8.44.0",
+    "eslint": "^8.45.0",
     "esno": "^0.16.3",
     "pnpm": "^7.33.3",
     "typescript": "^5.1.6",
