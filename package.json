@@ -46,10 +46,10 @@
     "type-check": "tsc --noEmit"
   },
   "devDependencies": {
-    "@antfu/ni": "^0.21.10",
+    "@antfu/ni": "^0.21.12",
     "@babel/types": "^7.23.4",
     "@hannoeru/eslint-config": "^0.9.7",
-    "@types/node": "^18.18.13",
+    "@types/node": "^18.19.2",
     "bumpp": "^8.2.1",
     "eslint": "^8.54.0",
     "esno": "^0.17.0",
