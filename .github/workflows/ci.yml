@@ -17,23 +17,20 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v3
 
-      - name: Install pnpm
-        uses: pnpm/action-setup@v2
+      - name: Enable corepack
+        run: corepack enable
 
       - name: Set node
         uses: actions/setup-node@v3
         with:
-          node-version: 16.x
+          node-version-file: .nvmrc
           cache: pnpm
 
-      - name: Setup
-        run: npm i -g @antfu/ni
-
       - name: Install
-        run: nci
+        run: pnpm install
 
       - name: Lint
-        run: nr lint
+        run: pnpm lint
 
   typecheck:
     runs-on: ubuntu-latest
@@ -42,23 +39,20 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v3
 
-      - name: Install pnpm
-        uses: pnpm/action-setup@v2
+      - name: Enable corepack
+        run: corepack enable
 
       - name: Set node
         uses: actions/setup-node@v3
         with:
-          node-version: 16.x
+          node-version-file: .nvmrc
           cache: pnpm
 
-      - name: Setup
-        run: npm i -g @antfu/ni
-
       - name: Install
-        run: nci
+        run: pnpm install
 
       - name: Typecheck
-        run: nr type-check
+        run: pnpm type-check
 
   test:
     runs-on: ${{ matrix.os }}
@@ -66,21 +60,19 @@ jobs:
     strategy:
       matrix:
         os: [ubuntu-latest]
-        node: [14, 16, 18]
+        node: [18, 20]
         include:
           - os: macos-latest
-            node_version: 16
-          - os: macos-latest
-            node_version: 18
+            node_version: 20
           - os: windows-latest
-            node_version: 16
+            node_version: 20
       fail-fast: false
     steps:
       - name: Checkout repo
         uses: actions/checkout@v3
 
-      - name: Install pnpm
-        uses: pnpm/action-setup@v2
+      - name: Enable corepack
+        run: corepack enable
 
       - name: Set node version to ${{ matrix.node }}
         uses: actions/setup-node@v3
@@ -88,14 +80,11 @@ jobs:
           node-version: ${{ matrix.node }}
           cache: pnpm
 
-      - name: Setup
-        run: npm i -g @antfu/ni
-
       - name: Install
-        run: nci
+        run: pnpm install
 
       - name: Build
-        run: nr build
+        run: pnpm build
 
       - name: Test
-        run: nr test
+        run: pnpm test
