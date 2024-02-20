@@ -27,8 +27,8 @@ importers:
         specifier: ^8.56.0
         version: 8.56.0
       pnpm:
-        specifier: ^7.33.7
-        version: 7.33.7
+        specifier: ^8.15.3
+        version: 8.15.3
       tsx:
         specifier: ^4.7.1
         version: 4.7.1
@@ -3824,9 +3824,9 @@ packages:
     engines: {node: '>=4'}
     dev: true
 
-  /pnpm@7.33.7:
-    resolution: {integrity: sha512-ev4kEGQrOcaY30baTOXHIxpczjYGmNafjPj0IlfUCz5D8jEFOwe43oSf1P+/SnH/V7g1E3d3o1I4jz09p0cgDg==}
-    engines: {node: '>=14.6'}
+  /pnpm@8.15.3:
+    resolution: {integrity: sha512-3YXNbspkF8b3PbMroetHZ/+0y6T1vwcnhGciyStrnlaizCGLEThbvCsh8YoWpn2nes6um2Gg9WoWQ7JeH7amBQ==}
+    engines: {node: '>=16.14'}
     hasBin: true
     dev: true
 
