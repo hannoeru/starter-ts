@@ -44,7 +44,7 @@
     "@antfu/ni": "^0.21.12",
     "@babel/types": "^7.24.0",
     "@hannoeru/eslint-config": "^0.9.7",
-    "@types/node": "^20.11.27",
+    "@types/node": "^20.11.28",
     "bumpp": "^9.4.0",
     "eslint": "^8.57.0",
     "pnpm": "^8.15.4",
