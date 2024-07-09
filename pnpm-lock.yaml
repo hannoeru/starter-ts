@@ -27,7 +27,7 @@ importers:
         specifier: ^8.57.0
         version: 8.57.0
       pnpm:
-        specifier: ^9.4.0
+        specifier: ^9.5.0
         version: 9.5.0
       tsx:
         specifier: ^4.16.2
