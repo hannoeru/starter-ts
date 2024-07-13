@@ -41,7 +41,7 @@
     "type-check": "tsc --noEmit"
   },
   "devDependencies": {
-    "@antfu/ni": "^0.21.12",
+    "@antfu/ni": "^0.22.0",
     "@babel/types": "^7.24.8",
     "@hannoeru/eslint-config": "^0.9.7",
     "@types/node": "^20.14.10",
