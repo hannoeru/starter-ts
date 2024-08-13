@@ -45,7 +45,7 @@
     "@babel/types": "^7.25.2",
     "@hannoeru/eslint-config": "^0.9.7",
     "@types/node": "^20.14.15",
-    "bumpp": "^9.4.2",
+    "bumpp": "^9.5.1",
     "eslint": "^8.57.0",
     "pnpm": "^9.7.0",
     "tsx": "^4.17.0",
