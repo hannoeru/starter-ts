@@ -2,7 +2,7 @@
   "name": "name",
   "type": "module",
   "version": "0.0.0",
-  "packageManager": "pnpm@9.7.1",
+  "packageManager": "pnpm@9.8.0",
   "description": "",
   "keywords": [],
   "homepage": "https://github.com/hannoeru/[name]#readme",
@@ -44,14 +44,14 @@
     "@antfu/ni": "^0.22.4",
     "@babel/types": "^7.25.4",
     "@hannoeru/eslint-config": "^0.9.7",
-    "@types/node": "^20.15.0",
-    "bumpp": "^9.5.1",
+    "@types/node": "^20.16.1",
+    "bumpp": "^9.5.2",
     "eslint": "^8.57.0",
-    "pnpm": "^9.7.1",
-    "tsx": "^4.17.0",
+    "pnpm": "^9.8.0",
+    "tsx": "^4.18.0",
     "typescript": "^5.5.4",
     "unbuild": "^2.0.0",
-    "vite": "^5.4.1",
+    "vite": "^5.4.2",
     "vitest": "^2.0.5"
   }
 }
