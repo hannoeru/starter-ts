@@ -2,7 +2,7 @@
   "name": "name",
   "type": "module",
   "version": "0.0.0",
-  "packageManager": "pnpm@9.14.2",
+  "packageManager": "pnpm@9.14.4",
   "description": "",
   "author": "hannoeru <me@hanlee.co>",
   "license": "MIT",
@@ -40,7 +40,7 @@
     "type-check": "tsc --noEmit"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^3.9.2",
+    "@antfu/eslint-config": "^3.11.2",
     "bumpp": "^9.8.1",
     "eslint": "^9.15.0",
     "typescript": "^5.7.2",
