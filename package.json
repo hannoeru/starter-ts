@@ -2,7 +2,7 @@
   "name": "name",
   "type": "module",
   "version": "0.0.0",
-  "packageManager": "pnpm@9.15.0",
+  "packageManager": "pnpm@9.15.1",
   "description": "",
   "author": "hannoeru <me@hanlee.co>",
   "license": "MIT",
@@ -45,7 +45,7 @@
     "eslint": "^9.17.0",
     "typescript": "^5.7.2",
     "unbuild": "^3.0.1",
-    "vite": "^6.0.3",
+    "vite": "^6.0.5",
     "vitest": "^2.1.8"
   }
 }
