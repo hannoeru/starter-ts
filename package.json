@@ -2,7 +2,7 @@
   "name": "name",
   "type": "module",
   "version": "0.0.0",
-  "packageManager": "pnpm@9.15.3",
+  "packageManager": "pnpm@9.15.4",
   "description": "",
   "author": "hannoeru <me@hanlee.co>",
   "license": "MIT",
@@ -40,11 +40,11 @@
     "type-check": "tsc --noEmit"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^3.13.0",
+    "@antfu/eslint-config": "^3.14.0",
     "bumpp": "^9.10.0",
     "eslint": "^9.18.0",
     "typescript": "^5.7.3",
-    "unbuild": "^3.2.0",
+    "unbuild": "^3.3.1",
     "vite": "^6.0.7",
     "vitest": "^2.1.8"
   }
