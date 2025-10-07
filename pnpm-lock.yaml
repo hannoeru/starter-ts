@@ -12,8 +12,8 @@ importers:
         specifier: ^5.4.1
         version: 5.4.1(@vue/compiler-sfc@3.5.22)(eslint@9.37.0(jiti@2.6.1))(typescript@5.9.3)(vitest@3.2.4(@types/debug@4.1.12)(jiti@2.6.1)(yaml@2.8.1))
       bumpp:
-        specifier: ^10.2.3
-        version: 10.3.0
+        specifier: ^10.3.1
+        version: 10.3.1
       eslint:
         specifier: ^9.37.0
         version: 9.37.0(jiti@2.6.1)
@@ -764,8 +764,8 @@ packages:
     resolution: {integrity: sha512-bkXY9WsVpY7CvMhKSR6pZilZu9Ln5WDrKVBUXf2S443etkmEO4V58heTecXcUIsNsi4Rx8JUO4NfX1IcQl4deg==}
     engines: {node: '>=18.20'}
 
-  bumpp@10.3.0:
-    resolution: {integrity: sha512-hxbn/kXi1TH3GhHeuGmG+V5Fs9yQ05VnSheyLxUwZJnnR8o8Lu4owbQtBDAEPO9N3lXG5rVoENOWrgUiEcq+kw==}
+  bumpp@10.3.1:
+    resolution: {integrity: sha512-cOKPRFCWvHcYPJQAHN6V7Jp/wAfnyqQRXQ+2fgWIL6Gao20rpu7xQ1cGGo1APOfmbQmmHngEPg9Fy7nJ3giRkQ==}
     engines: {node: '>=18'}
     hasBin: true
 
@@ -2998,7 +2998,7 @@ snapshots:
 
   builtin-modules@5.0.0: {}
 
-  bumpp@10.3.0:
+  bumpp@10.3.1:
     dependencies:
       ansis: 4.2.0
       args-tokenizer: 0.3.0
