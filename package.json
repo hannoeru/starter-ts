@@ -2,7 +2,7 @@
   "name": "name",
   "type": "module",
   "version": "0.0.0",
-  "packageManager": "pnpm@10.19.0",
+  "packageManager": "pnpm@10.20.0",
   "description": "",
   "author": "hannoeru <me@hanlee.co>",
   "license": "MIT",
